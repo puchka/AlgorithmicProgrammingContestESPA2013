@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int main()
 {
@@ -24,8 +23,7 @@ int main()
         }
         printf("\n");
     }
-    //printf("%d\n", nbLettres);
-    //printf("%s\n", lettres);
+    
 	getchar();
     return 0;
 }
