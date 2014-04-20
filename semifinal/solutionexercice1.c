@@ -34,5 +34,6 @@ int main()
         printf("%s est un palindrome.\n", chaine);
     else
         printf("%s n est pas un palindrome.\n", chaine);
+	getchar();
     return 0;
 }

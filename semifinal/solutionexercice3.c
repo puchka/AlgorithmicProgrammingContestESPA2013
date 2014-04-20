@@ -72,5 +72,6 @@ int main()
     }
     if (punis[0]==0)
         printf("%d\n", -1);
+	getchar();
     return 0;
 }

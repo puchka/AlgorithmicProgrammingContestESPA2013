@@ -26,5 +26,6 @@ int main()
     }
     //printf("%d\n", nbLettres);
     //printf("%s\n", lettres);
+	getchar();
     return 0;
 }

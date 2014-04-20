@@ -44,5 +44,6 @@ int main()
     }
 
     printf("%s", chaine2);
+	getchar();
     return 0;
 }

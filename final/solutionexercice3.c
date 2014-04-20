@@ -64,5 +64,6 @@ int main()
     }
     //affiche(colonnes);
     printf("%d\n", colonnes[pluslongcolonne(colonnes, 100, 0)]);
+	getchar();
     return 0;
 }

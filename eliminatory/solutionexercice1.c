@@ -120,7 +120,6 @@ int main()
     }
     printf("\n");
     affiche2(nbaff, index);
-
+	getchar();
     return 0;
 }
-
