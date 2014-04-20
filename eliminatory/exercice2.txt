@@ -1,0 +1,44 @@
+Le but de cet exercice est de dessiner des carrés emboités les uns dans les autres en utilisant des lettres. Voici un exemple pour les lettres 'o', 'x', 'i' et 'u' :
+
+uuuuuuu
+uiiiiiu
+uixxxiu
+uixoxiu
+uixxxiu
+uiiiiiu
+uuuuuuu
+
+Tout au centre se trouve la première lettre 'o'. Cette lettre est entourée par un carré de 'x'. Ce carré est lui même entouré d'un carré de 'i'. Enfin un carré de 'u' entoure l'ensemble de la figure.
+
+La séquence des lettres à utiliser pour dessiner les carrés vous est donnée en entrée, en commençant par les lettres à utiliser pour dessiner les petits carrés du milieu.
+
+CONTRAINTES
+
+    * 1 <= N <= 300, où N est le nombre de lettres.
+
+ENTRÉE
+
+    * La première ligne de l'entrée contient un entier : le nombre de lettres N.
+    * La seconde ligne de l'entrée contient un mot de N lettres, dont toutes les lettres sont minuscules (entre     'a' et 'z' inclus) et non accentuées. 
+
+SORTIE
+
+Vous devez afficher des carrés imbriqués les uns dans les autres comme décrit dans le sujet (et aussi dans l'exemple ci-dessous).
+EXEMPLE
+
+entrée :
+
+5
+carre
+
+sortie :
+
+eeeeeeeee
+errrrrrre
+errrrrrre
+erraaarre
+erracarre
+erraaarre
+errrrrrre
+errrrrrre
+eeeeeeeee
