@@ -13,7 +13,6 @@ TODO
 -------
 
 * semifinal/exercice2
-* final/exercice2
 
 ACKNOWLEDGEMENT
 ---------------
