@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "file.h"
 
 #define SIZE_AFF 10
 #define SIZE_NBAFF 10
@@ -36,8 +35,7 @@ void ajouter(int hi, int *aff)
 {
     int i, j;
     qsort(aff, sizeof(int), sizeof(int), compare);
-    //printf("\nqsort\n");
-    //affiche(aff);
+	
     for (i=0;i<SIZE_AFF;i++)
     {
         if (aff[i]==0)
@@ -55,7 +53,7 @@ void ajouter(int hi, int *aff)
             break;
         }
     }
-    //affiche(aff);
+	
 }
 
 int countAff(int *aff)
@@ -66,8 +64,6 @@ int countAff(int *aff)
         if (aff[i]!=0)
             c++;
     }
-    //printf("\ncount\n");
-    //printf("%d\n", c);
     return c;
 }
 
@@ -80,7 +76,6 @@ int main()
     int nbaff[SIZE_NBAFF]={0};
 
     scanf("%d", &nbQuery);
-    //while (getchar()!="\n");
     for (i=0;i<nbQuery;i++)
     {
         c = getchar();
@@ -89,33 +84,13 @@ int main()
 
         if (c=='Q')
         {
-            //printf("boucle 1\n");
             nbaff[index]=countAff(aff);
             index++;
-            //printf("%d\n", nbaff[index]);
-
         }
-        //nbInput = scanf("% c %d", &typeq, &hi);
-        //while (getchar()!="\n");
-
-
         else if (c=='C')
         {
             scanf("%d", &hi);
-            //printf("\nhi : %d\n", hi);
-            /*
-            if (aff[0]==0)
-            {
-                aff[0] = hi;
-                nbaff[0] = 1;
-            }
-
-            else
-            {*/
-                ajouter(hi, aff);
-                //affiche(aff);
-            //}
-            //printf("boucle 2\n");
+			ajouter(hi, aff);
         }
     }
     printf("\n");
