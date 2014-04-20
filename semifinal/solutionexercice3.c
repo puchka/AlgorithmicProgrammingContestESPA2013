@@ -40,9 +40,7 @@ int main()
 {
     int arrivee[20]={0};
     int punis[20]={0};
-//    arrivee[0] = 4;
-//    arrivee[1] = 2;
-//    printf("%d", elevepunis(arrivee, 4));
+	
     int n, p, i, j, eleve;
     scanf("%d %d", &n, &p);
     for (i=0;i<p;i++)
