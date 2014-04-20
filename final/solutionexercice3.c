@@ -45,9 +45,7 @@ int main()
     int n;                      // nombre de batons
     char o;
     int length, col;
-//    colonnes[98] = 5;
-//    colonnes[99] = 10;
-//    printf("%d\n", pluslongcolonne(colonnes, 2, 98));
+	
     scanf("%d", &n);
     while (n>0)
     {
@@ -59,10 +57,10 @@ int main()
             horizontal(colonnes, length, col);
         else
             vertical(colonnes, length, col);
-        //affiche(colonnes);
+        
         n--;
     }
-    //affiche(colonnes);
+    
     printf("%d\n", colonnes[pluslongcolonne(colonnes, 100, 0)]);
 	getchar();
     return 0;
