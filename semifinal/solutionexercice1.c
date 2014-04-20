@@ -11,8 +11,6 @@ int palindrome(char *chaine, int n)
     n = strlen(chaine)-1;
     for (i=0;i<n;i++)
     {
-//        printf("i = %d\n", i);
-//        printf("n-i = %d\n", n-i);
         if (chaine[i]!=chaine[n-i])
         {
             result = 0;
