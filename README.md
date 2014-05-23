@@ -9,11 +9,6 @@ WARNING
 Some solutions may contain bugs.
 It is up to you to find your solution.
 
-TODO
--------
-
-* semifinal/exercice2
-
 ACKNOWLEDGEMENT
 ---------------
 
